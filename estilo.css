@@ -12,7 +12,7 @@ html{
 /*SECCION INICIO*/
 .inicio{
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("img/head.png");
+    url("img/head.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
