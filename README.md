@@ -1,2 +1,2 @@
-# hetur.github.io
+# josevegas.github.io
 Mi portafolio personal
