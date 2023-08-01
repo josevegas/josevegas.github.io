@@ -12,7 +12,7 @@ html{
 /*SECCION INICIO*/
 .inicio{
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("img/1000_F_294371270_K5xfhsMLpSNhd8ya7hPd6XQhcLtLBbDL.jpg");
+    url("img/head.png");
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -30,7 +30,7 @@ html{
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: #12ad40;
+    background-color: #075e1d;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -49,7 +49,7 @@ html{
     font-weight: bold;
     font-size: 2.5rem;
     font-family: "Yellowtail";
-    text-shadow: 0 0 35px #0d522a;
+    text-shadow: 0 0 35px #075e1d;
 }
 .inicio .contenido-seccion header .logo .color{
     color: #ffffff;
@@ -58,7 +58,7 @@ html{
 }
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color: #12ad5f;
+    background-color: #075e1d;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -93,7 +93,7 @@ html{
     text-decoration: none;
     background-color: #000;
     color: #6f63dd;
-    border: 1px solid #2212ad;
+    border: 1px solid #075e1d;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -113,7 +113,7 @@ html{
     background-color: #c4c6e2;
     max-width: 200px;
     border-radius: 50%;
-    border: 5px solid #17ad12;
+    border: 5px solid #075e1d;
     position: absolute;
     left: 50%;
     top: -100px;
@@ -140,7 +140,7 @@ html{
     font-size: 30px;
 }
 .sobremi .contenido-seccion .especial{
-    color: #12ad4d;
+    color: #075e1d;
     font-weight: bold;
     margin-top: 15px;
 }
@@ -162,7 +162,7 @@ html{
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid #12ad79;
+    border: 2px solid #075e1d;
     line-height: 40px;
     border-radius: 50%;
 }
@@ -184,7 +184,7 @@ html{
     padding: 80px 0 100px 0;
     text-align: center;
     background: linear-gradient(rgba(255, 255, 255, 0.356), rgba(1,0,2,.3)),
-    url("img/experiencia-programacion-persona-que-trabaja-codigos-computadora.jpg");
+    url("img/fullstack.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -240,10 +240,10 @@ html{
   @keyframes cambiColor {
    0% {background-color: #d7d7f3;} 
    25% {background-color: #acace6;}
-   35% {background-color: #5e5ece;}
-   50% {background-color: #4545c7;}
-   75% {background-color: #3131a2;}
-   100% {background-color: #1d1d61;}
+   35% {background-color: #56f07c;}
+   50% {background-color: #10b93a;}
+   75% {background-color: #0a8529;}
+   100% {background-color: #097223;}
   }
   .imagen-centrada {
     position: absolute;
@@ -280,9 +280,9 @@ html{
 }
 .resumen .contenido-seccion .info .col .titulo{
     display: inline-block;
-    color: #2212ad;
+    color: #075e1d;
     font-weight: bold;
-    border: 2px solid #2212ad;
+    border: 2px solid #075e1d;
     padding: 10px;
 }
 .resumen .contenido-seccion .info .col table{
@@ -305,7 +305,7 @@ html{
 }
 .resumen .contenido-seccion .info .col table .promedio{
     display: block;
-    color: #2212ad;
+    color: #075e1d;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -316,7 +316,7 @@ html{
 
 /* SECCION CONTACTO*/
 .contacto{
-    background-color: #4850bb;
+    background-color: #075e1d;
     padding: 50px 0 100px 0;
     color: #e6e6e6;
     text-align: center;

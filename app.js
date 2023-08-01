@@ -41,10 +41,10 @@ let sequelize = document.getElementById("sequelize");
 crearBarra(sequelize);
 let postgres = document.getElementById("postgres");
 crearBarra(postgres);
-let photoshop = document.getElementById("photoshop");
-crearBarra(photoshop);
-let corel = document.getElementById("corel");
-crearBarra(corel);
+// let photoshop = document.getElementById("photoshop");
+// crearBarra(photoshop);
+// let corel = document.getElementById("corel");
+// crearBarra(corel);
 
 //Ahora guardo la cantidad de barritas que se van a ir pintando por cada barra
 //para eso utilizo un arreglo, cada posicion pertenece a un elemento
@@ -77,12 +77,12 @@ function efectoHabilidades(){
         const intervalpostgres = setInterval(function(){
             pintarBarra(postgres, 8, 5, intervalpostgres);
             },100);
-        const intervalphotoshop = setInterval(function(){
-            pintarBarra(photoshop, 8, 6, intervalphotoshop);
-            },100);
-        const intervalcorel = setInterval(function(){
-            pintarBarra(corel, 8, 7, intervalcorel);
-            },100);
+        // const intervalphotoshop = setInterval(function(){
+        //     pintarBarra(photoshop, 8, 6, intervalphotoshop);
+        //     },100);
+        // const intervalcorel = setInterval(function(){
+        //     pintarBarra(corel, 8, 7, intervalcorel);
+        //     },100);
     };
 }
 
@@ -93,7 +93,7 @@ function pintarBarra(id_barra, cantidad, indice, interval){
     x = contadores[indice];
     if(x < cantidad){
         let elementos = id_barra.getElementsByClassName("e");
-        elementos[x].style.backgroundColor = "#2212ad";
+        elementos[x].style.backgroundColor = "#075e1d";
     }else{
         clearInterval(interval)
     }
