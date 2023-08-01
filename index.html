@@ -1,358 +1,301 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
-<html lang="en" class="sr">
-
+<html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-
-  <!-- Todo: put here your site title -->
-  <title>José Vegas | Full Stack Web Developer</title>
-  <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-  <meta name="keywords" content="JoseVegas, Jose, Developer" />
-  <!-- Todo: improve your SEO by adding a small description of you -->
-  <meta name="description" content="Jose Vegas | Full Stack Web Developer" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="styles.scss" />
-  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-
-  <!-- Todo: remove the below script once you finish your portfolio -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>JOSÉ LUIS VEGAS MARQUEZ</title>
 </head>
-
-<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-
 <body>
-  <div id="top"></div>
-
-  <!-- **** Hero Section **** -->
-  <section id="hero" class="jumbotron">
-    <div class="container">
-      <h1 class="hero-title load-hidden">
-        Hi! My name is <span class="text-color-main">José Vegas</span>
-        <br />
-        Full Stack Web Developer.
-      </h1>
-      <p class="hero-cta load-hidden">
-        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">About me</a>
-      </p>
-    </div>
-  </section>
-  <!-- /END Hero Section -->
-
-  <!-- **** About Section **** -->
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title load-hidden">About me</h2>
-      <div class="row about-wrapper">
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__image load-hidden">
-            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
-              src="assets/picture-feli.png" alt="Profile Image" />
-          </div>
+   <!-- SECCION INICIO -->
+   <section class="inicio" id="inicio">
+    <div class="contenido-seccion">
+        <header>
+            <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav id="nav" class="nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobremi">Sobre mí</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#resumen">Resumen</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="logo">
+                H<span class="color">LP</span>
+            </div>
+        </header>
+        <div class="info">
+            <h1>JOSÉ LUIS VEGAS MÁRQUEZ</h1>
+            <h2>FULL STACK DEVELOPER</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jose-vegas-marquez/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com/josevegas"><i class="fa-brands fa-github"></i></a>
+                <!-- <a href="https://www.facebook.com/hector.lopezpepa.5"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://ar.pinterest.com/heturpepa/"><i class="fa-brands fa-pinterest"></i></a> -->
+            </div>
         </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__info load-hidden">
-            <p class="about-wrapper__info-text">
-              Full Stack Web Developer with knowledge in HTML, CSS, JavaScript, React, Redux, NodeJS, Express,
-              Sequelize, PostgreSQL y Git.
-              <br /><br />
-              Passionate about technology, Data Science and Machine Learning.
-
-            </p>
-            <p class="about-wrapper__info-text">
-              The obstacles that I have faced throughout my life, both personally and professionally, have pushed me to
-              develop
-              have driven me to develop
-              strengths of which I highlight:
-              <br />
-            <div class="container">
-              <div class="row">
-                <div class="col-md float-left">
-                  <h4>• I am proactive and self-taught.</h4><br />
-                  <h4>• I can adapt quickly to a team and to the
-                    to a work team and to the methodologies they are implementing.</h4><br />
-                  <h4>• Attitude of service: I like to generate
-                    spaces in which we can help each other and contribute ideas that improve performance and the work
-                    environment.
-                    work environment.</h4><br />
-                  <h4>• Analytical ability to generate ideas and solve problems.</h4>
-                </div>
-                <div class="col-md float-left">
-
-                  <h4>• Respectful.</h4><br />
-                  <h4>• Committed.</h4><br />
-                  <h4>• Responsible.</h4><br />
-                  <h4>• Dedicated.</h4><br />
-                  <h4>• On time.</h4><br />
-                  <h4>• Empathetic.</h4>
-
-                </div>
-
-              </div>
-            </div>
-            </p>
-            <div class="row">
-              <span class="d-flex mt-3">
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
-                  href="assets/FELIPE's Resume English.pdf">
-                  Resume English
-                </a>
-              </span>
-              <span class="d-flex mt-3">
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
-                  href="assets/Felipe's Resume Spanish.pdf">
-                  Resume Spanish
-                </a>
-              </span>
-              <span class="d-flex mt-3">
-                <p class="hero-cta load-hidden">
-                  <a rel="noreferrer" class="cta-btn cta-btn--resume" href="#projects">Projects</a>
-                </p>
-              </span>
-            </div>
-          </div>
+        <div class="foto">
+            <img src="./img/perfil.jpg" alt="">
         </div>
-      </div>
     </div>
-  </section>
-  <!-- /END About Section -->
+   </section>
+   <!--- SECCION SOBRE MI -->
+   <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mí</h2>
+            <h3>Detalles Personales</h3>
 
-  <!-- **** Projects Section **** -->
-  <section id="projects">
-    <div class="container">
-      <div class="project-wrapper">
-        <h2 class="section-title dark-blue-text">Projects</h2>
-
-        <!-- Notice: each .row is a project -->
-        <!-- Este seria el pf, que debo revisar, algo se rompio de momento -->
-        <!-- <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">E-commerce TechStore</h3>
-              <div>
-                <p class="mb-4">
-                  The project consists of an application that allows the visualization of a list of technological
-                  products with detailed
-                  information on each one to the
-                  detailed information about each one by giving
-                  giving it
-                  clicking on this.<br />
-                  It has an authentication system with login, register and google login.. <br />
-                  It has roles for guest, user and admin. The guest can browse the site without making purchases. <br />
-                  The user can make purchases, edit his profile and subscribe to the site's newsletter.<br />
-                  The admin panel provides sales statistics, as well as the ability to create or edit a product. <br />
-                  Add discounts and send notification emails to users subscribed to the newsletter.
-                  <br />
-                  The tools used were: JavaScript, HTML, CSS, NodeJS, Express, Sequelize, PostgreSQL,
-                  React, Redux, tailwind, cloudinary and JWT.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://tech-store-dev.vercel.app/">
-                Demo
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
-                href="https://github.com/sebMar92/e-commerce-frontend">
-                Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://tech-store-dev.vercel.app/" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/Screenshot from 2022-04-19 15-30-37.png" />
+            <p class="especial">Desarrollador Full stack Tecnologías: React Postgres</p>
+            <p>Con una personalidad proactiva, orientada a la acción y siempre buscando oportunidades para mejorar e innovar. Buscando la integracion de la tecnoloía en nuestro dia a dia</p>
+            
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Perfil</span>
+                    <span>Poseo habilidades para generar ideas innovadoras y soluciones efectivas que impulsan el crecimiento de las organizaciones. Experto en JavaScript, con experiencia en proyectos exitosos. Amplia experiencia en diseño gráfico utilizando Corel Draw y Adobe Creative Suite. Disfruto colaborando en equipo para lograr resultados excepcionales.</span>
                 </div>
-              </a>
-            </div>
-          </div>
-        </div> -->
-        <!-- /END Project -->
-
-        <!-- Notice: each .row is a project -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Videogames App ( PERN Stack )</h3>
-              <div>
-                <p class="mb-4">
-                  The project consists of a SPA (Single Page Application) that allows to obtain information from an API
-                  provided by the
-                  rawg.io.<br /> You will find a list of video games with detailed information about each one.<br />
-                  You can create their own video games through a controlled form. They can also filter them
-                  by genre,
-                  created or existing, sort them alphabetically, by rating and date of creation.. <br />
-                  The tools used were: JavaScript, HTML, CSS, NodeJS, Express, Sequelize, PostgreSQL,
-                  React and Redux.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://videogames-app-ruddy.vercel.app/">
-                Demo
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://github.com/HX-FMontoya/videogames-deploy-client">
-                Code
-              </a>
-              <p class="hero-cta load-hidden">
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#contact">Contact</a>
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://videogames-app-ruddy.vercel.app/" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/Screenshot from 2022-03-12 12-32-21.png" />
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <span>Ciudad: Santiago del Estero <br>Provincia Santiago del Estero <br> País: Argentina</span>
+                    <img src="./img/bandera argentina.png" alt="" class="bandera">
+                    
                 </div>
-              </a>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <span>Apasionado por la tecnología, especialmente en desarrollo web. Sólidos conocimientos en JavaScript, bases de datos. Emocionado por unirme a equipos innovadores y proyectos desafiantes. Interés en crecer y explorar nuevas oportunidades en el campo tecnológico.</span>
+                </div>
             </div>
-          </div>
+        </div>    
+    </section> 
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <h3>Me especializo en</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            <!-- columna izquierda mediante javascript luego generaremos 8 barritas con clse e -->
+                        </div>
+                        <div class="imagen-con-recuadro">
+                           <img src="./img/html_css.png" alt="" class="imagen-centrada"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>REACT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="react">
+                            <!-- columna derecha  luego generaremos 8 barritas con clse e -->
+                        </div>
+                        <div class="imagen-con-recuadro">
+                            <img src="./img/react.png" alt="" class="imagen-centrada"/>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="fila">
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <!-- columna izquierda mediante javascript luego generaremos 8 barritas con clse e -->
+                        </div>
+                        <div class="imagen-con-recuadro">
+                            <img src="./img/js.png" alt="" class="imagen-centrada"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>REDUX</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="redux">
+                            <!-- columna derecha  luego generaremos 8 barritas con clse e -->
+                        </div>
+                        <div class="imagen-con-recuadro">
+                            <img src="./img/redux 1.png" alt="" class="imagen-centrada"/>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div class="fila">
+                <div class="col">
+                <span>SEQUELIZE</span>
+                        <div class="cont-barra">
+                        <div class="barra" id="sequelize">
+                                <!-- columna izquierda mediante javascript luego generaremos 8 barritas con clse e -->
+                        </div>
+                        <div class="imagen-con-recuadro">
+                            <img src="./img/sequelize.png" alt="" class="imagen-centrada"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                <span>POSTGRES</span>
+                        <div class="cont-barra">
+                            <div class="barra" id="postgres">
+                                <!-- columna derecha  luego generaremos 8 barritas con clse e -->
+                            </div>
+                            <div class="imagen-con-recuadro">
+                                <img src="./img/postgres.png" alt="" class="imagen-centrada"/>
+                             </div>
+                        </div>
+                </div>
+            </div>    
+                <div class="fila">
+                    <div class="col">
+                        <span>PHOTOSHOP</span>
+                        <div class="cont-barra">
+                            <div class="barra" id="photoshop">
+                                <!-- columna izquierda mediante javascript luego generaremos 8 barritas con clse e -->
+                            </div>
+                            <div class="imagen-con-recuadro">
+                               <img src="./img/photoshop.png" alt="" class="imagen-centrada"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <span>COREL</span>
+                        <div class="cont-barra">
+                            <div class="barra" id="corel">
+                                <!-- columna derecha  luego generaremos 8 barritas con clse e -->
+                            </div>
+                            <div class="imagen-con-recuadro">
+                                <img src="./img/corel.png" alt="" class="imagen-centrada"/>
+                             </div>
+                    </div>
+                </div> 
+            </div>       
+        </div>                      
+    </section>
+
+
+    <!---- SECCION RESUMEN --->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2019 - 2019</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Armado y Mantenimiento de equipos pc 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>UNSE</h4>
+                                <p>Escuela de Innovacion</p>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2022 - 2023</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Full stack Developer - “Vianda Express” - Agosto 2023
+                                Participación en un equipo de desarrollo ágil con sprints de una semana presentándole a un Product Owner avances sobre el desarrollo de una app completa de un E-commerce con diseño y desarrollo de las siguientes features: Features básicas de e-commerce (CRUD de productos, auth, catálogo, checkout, etc..)
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="datos">
+                                <h4>Full Stack Developer</h4>
+                                <p>Henry</p>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>3 años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Trabajos en diseño gráfico para empresas del sector y particulares
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Imprentas</h4>
+                                <p>Diseño gráfico</p>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>6 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Dictado de clases en establecimientos públicos y privados
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Ofimatica</h4>
+                                <p>Free lancer</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
-        <!-- /END Project -->
+    </section>
 
-        <!-- Notice: each .row is a project -->
-        <!-- <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Project Title 1</h3>
-              <div>
-                <p class="mb-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Excepturi neque, ipsa animi maiores repellendus distinctio
-                  aperiam earum dolor voluptatum consequatur blanditiis
-                  inventore debitis fuga numquam voluptate ex architecto
-                  itaque molestiae.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/project.jpg" />
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Ponte en Contacto</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">+54 9-385-5238224</span>
                 </div>
-              </a>
-            </div>
-          </div>
-        </div> -->
-        <!-- /END Project -->
-
-        <!-- Notice: each .row is a project -->
-        <!-- <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Project Title 2</h3>
-              <div>
-                <p class="mb-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Excepturi neque, ipsa animi maiores repellendus distinctio
-                  aperiam earum dolor voluptatum consequatur blanditiis
-                  inventore debitis fuga numquam voluptate ex architecto
-                  itaque molestiae.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="#!" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/project.jpg" />
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> E-mail
+                    </h2>
+                    <span class="info-contacto">heturpepa@gmail.com</span>
                 </div>
-              </a>
+                <div class="col">
+                    <a href="./accets/Hector Ricardo Lopez Pepa - CV - 2023.pdf">
+                     <h2 class="cv">
+                         <i class="fa-solid fa-file-pdf"></i> <br> Descargar C.V.
+                     </h2>   
+                </div>
             </div>
-          </div>
-        </div> -->
-        <!-- /END Project -->
-      </div>
-    </div>
-  </section>
-  <!-- /END Projects Section -->
+        </div>
+    </section>
 
-  <!-- **** Contact Section **** -->
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-wrapper load-hidden">
-        <p class="contact-wrapper__text"></p>
-        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
-          href="mailto:felipeciromontoya.developer@gmail.com">E-mail send</a>
-      </div>
-    </div>
-  </section>
-  <!-- /END Contact Section -->
-
-  <!-- **** Footer Section **** -->
-  <footer class="footer navbar-static-bottom">
-    <div class="container">
-      <a rel="noreferrer" href="#top" class="back-to-top">
-        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-      </a>
-      <div class="social-links">
-        <!-- <a rel="noreferrer" href="https://api.whatsapp.com/send/?phone=573148814074&text&app_absent=0" target="_blank">
-          <i class="fa fa-whatsapp fa-inverse"></i>
-        </a> -->
-        <a rel="noreferrer" href="https://www.linkedin.com/in/jose-vegas-marquez/" target="_blank">
-          <i class="fa fa-linkedin fa-inverse"></i>
-        </a>
-        <a rel="noreferrer" href="https://github.com/josevegas/" target="_blank">
-          <i class="fa fa-github fa-inverse"></i>
-        </a>
-      </div>
-
-      <hr />
-
-      <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-      <!-- <p class="footer__text">
-        © 2021 - Template developed by
-        <a rel="noreferrer" href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-      </p> -->
-
-      <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-      <!-- <p class="mt-3 pt-3">
-        <a rel="noreferrer" class="github-button" href="https://github.com/cobidev/simplefolio/fork"
-          data-icon="octicon-repo-forked" data-size="large" data-show-count="true"
-          aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
-        <a rel="noreferrer" class="github-button" href="https://github.com/cobidev/simplefolio" data-icon="octicon-star"
-          data-size="large" data-show-count="true" aria-label="Star cobidev/simplefolio on GitHub">Star</a>
-      </p> -->
-    </div>
-  </footer>
-  <!-- /END Footer Section -->
-
-  <script defer type="module" src="index.js"></script>
+    <script src="app.js"></script>
 </body>
-
 </html>
