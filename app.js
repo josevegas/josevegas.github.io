@@ -45,6 +45,10 @@ let netcore = document.getElementById("netcore");
 crearBarra(netcore);
 let mysql = document.getElementById("mysql");
 crearBarra(mysql);
+let typescript = document.getElementById("typescript");
+crearBarra(typescript);
+let angular = document.getElementById("angular");
+crearBarra(angular);
 
 //Ahora guardo la cantidad de barritas que se van a ir pintando por cada barra
 //para eso utilizo un arreglo, cada posicion pertenece a un elemento
@@ -78,11 +82,17 @@ function efectoHabilidades(){
             pintarBarra(postgres, 8, 5, intervalpostgres);
             },100);
         const intervalnetcore = setInterval(function(){
-            pintarBarra(netcore, 6, 6, intervalnetcore);
+            pintarBarra(netcore, 5, 6, intervalnetcore);
             },100);
         const intervalmysql = setInterval(function(){
             pintarBarra(mysql, 8, 7, intervalmysql);
             },100);
+        const intervaltypescript = setInterval(function(){
+            pintarBarra(typescript, 8, 8, intervaltypescript);
+            },100);
+        const intervalangular = setInterval(function(){
+            pintarBarra(angular, 4, 9, intervalangular);
+        },100);
     };
 }
 
