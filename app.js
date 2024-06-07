@@ -19,7 +19,7 @@ for(var x = 0; x < links.length; x ++){
     }
 }
 
-//creo las barritas de una barra particular por su id
+//creo las barritas de una barra de 8 puntos particular por su id
 function crearBarra(id_barra){
     for(i = 0; i <= 8; i++){
         let div = document.createElement("div");
@@ -41,14 +41,14 @@ let sequelize = document.getElementById("sequelize");
 crearBarra(sequelize);
 let postgres = document.getElementById("postgres");
 crearBarra(postgres);
-// let photoshop = document.getElementById("photoshop");
-// crearBarra(photoshop);
-// let corel = document.getElementById("corel");
-// crearBarra(corel);
+let netcore = document.getElementById("netcore");
+crearBarra(netcore);
+let mysql = document.getElementById("mysql");
+crearBarra(mysql);
 
 //Ahora guardo la cantidad de barritas que se van a ir pintando por cada barra
 //para eso utilizo un arreglo, cada posicion pertenece a un elemento
-//comienza en -1 porque no tiene inguna barrita pintada al principio
+//comienza en -1 porque no tiene ninguna barrita pintada al principio
 let contadores = [-1,-1,-1,-1,-1,-1,-1,-1];
 //esta variable la voy ha utilizar de bandera para saber si ya se ejecutó la animacion
 let entro = false;
@@ -77,12 +77,12 @@ function efectoHabilidades(){
         const intervalpostgres = setInterval(function(){
             pintarBarra(postgres, 8, 5, intervalpostgres);
             },100);
-        // const intervalphotoshop = setInterval(function(){
-        //     pintarBarra(photoshop, 8, 6, intervalphotoshop);
-        //     },100);
-        // const intervalcorel = setInterval(function(){
-        //     pintarBarra(corel, 8, 7, intervalcorel);
-        //     },100);
+        const intervalnetcore = setInterval(function(){
+            pintarBarra(netcore, 6, 6, intervalnetcore);
+            },100);
+        const intervalmysql = setInterval(function(){
+            pintarBarra(mysql, 8, 7, intervalmysql);
+            },100);
     };
 }
 
