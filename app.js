@@ -49,11 +49,13 @@ let typescript = document.getElementById("typescript");
 crearBarra(typescript);
 let angular = document.getElementById("angular");
 crearBarra(angular);
+let ionic = document.getElementById("ionic");
+crearBarra(ionic)
 
 //Ahora guardo la cantidad de barritas que se van a ir pintando por cada barra
 //para eso utilizo un arreglo, cada posicion pertenece a un elemento
 //comienza en -1 porque no tiene ninguna barrita pintada al principio
-let contadores = [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1];
+let contadores = [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1];
 //esta variable la voy ha utilizar de bandera para saber si ya se ejecutó la animacion
 let entro = false;
 
@@ -92,6 +94,9 @@ function efectoHabilidades(){
             },100);
         const intervalangular = setInterval(function(){
             pintarBarra(angular, 4, 9, intervalangular);
+        },100);
+        const intervalionic = setInterval(function(){
+            pintarBarra(ionic, 4, 10, intervalionic);
         },100);
     };
 }
