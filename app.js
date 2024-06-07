@@ -53,7 +53,7 @@ crearBarra(angular);
 //Ahora guardo la cantidad de barritas que se van a ir pintando por cada barra
 //para eso utilizo un arreglo, cada posicion pertenece a un elemento
 //comienza en -1 porque no tiene ninguna barrita pintada al principio
-let contadores = [-1,-1,-1,-1,-1,-1,-1,-1,-1];
+let contadores = [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1];
 //esta variable la voy ha utilizar de bandera para saber si ya se ejecutó la animacion
 let entro = false;
 
@@ -82,7 +82,7 @@ function efectoHabilidades(){
             pintarBarra(postgres, 8, 5, intervalpostgres);
             },100);
         const intervalnetcore = setInterval(function(){
-            pintarBarra(netcore, 5, 6, intervalnetcore);
+            pintarBarra(netcore, 6, 6, intervalnetcore);
             },100);
         const intervalmysql = setInterval(function(){
             pintarBarra(mysql, 8, 7, intervalmysql);
