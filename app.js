@@ -78,7 +78,7 @@ function efectoHabilidades(){
             pintarBarra(postgres, 8, 5, intervalpostgres);
             },100);
         const intervalnetcore = setInterval(function(){
-            pintarBarra(netcore, 8, 6, intervalnetcore);
+            pintarBarra(netcore, 6, 6, intervalnetcore);
             },100);
         const intervalmysql = setInterval(function(){
             pintarBarra(mysql, 8, 7, intervalmysql);
